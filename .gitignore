@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos temporales y de caché
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Pytest cache
+.pytest_cache/
+coverage/
+
+# Archivos de configuración locales
+.env
+*.secret
+
+# GitHub workflows temporales (solo si generas archivos)
+.github/workflows/*.bak
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+
